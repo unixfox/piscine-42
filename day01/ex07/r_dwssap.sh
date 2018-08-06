@@ -1,0 +1,1 @@
+cat /etc/passwd | grep  -v ^# | sed '1d' | awk 'NR % 2 == 1' | grep -Eo '^[^:]+' | rev | sort -r | sed -n ''$FT_LINE1','$FT_LINE2'p;'$(( $FT_LINE2 + 1 ))'q' | tr '\n' ',' | rev | cut -c 2- | rev | sed 's/,/, /g' | awk '{print $0"."}' | tr -d '\n'

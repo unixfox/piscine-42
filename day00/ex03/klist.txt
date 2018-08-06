@@ -1,0 +1,5 @@
+Credentials cache: API:F1D09C7B-F44D-44F0-9208-63876E53859D
+        Principal: edevos@42.FR
+
+  Issued                Expires               Principal
+Jul  2 14:40:30 2018  Jul  9 14:40:21 2018  krbtgt/42.FR@42.FR

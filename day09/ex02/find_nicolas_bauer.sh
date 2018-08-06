@@ -1,0 +1,1 @@
+cat contacts_hard.txt | grep -i "Nicolas\tBauer" | grep -o '\(([0-9]\{3\})\|[0-9]\{3\}\)[ -]\?[0-9]\{3\}[ -]\?[0-9]\{4\}'

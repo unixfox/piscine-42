@@ -1,0 +1,1 @@
+find . \( -name '*~' -o -name '#*#' \) -print -type f -exec rm {} + 2>/dev/null
